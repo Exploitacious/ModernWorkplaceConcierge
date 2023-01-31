@@ -1,0 +1,217 @@
+{
+  "azureRightsManagementServicesAllowed": false,
+  "enforcementLevel": "encryptAndAuditOnly",
+  "enterpriseDomain": "umbrellaitgroup.onmicrosoft.com",
+  "enterpriseInternalProxyServers": [],
+  "enterpriseIPRanges": [],
+  "enterpriseIPRangesAreAuthoritative": false,
+  "enterpriseNetworkDomainNames": [],
+  "enterpriseProtectedDomainNames": [],
+  "enterpriseProxiedDomains": [
+    {
+      "displayName": "SharePoint",
+      "proxiedDomains": [
+        {
+          "ipAddressOrFQDN": "umbrellaitgroup.sharepoint.com",
+          "proxy": "",
+          "@odata.type": "microsoft.graph.proxiedDomain"
+        },
+        {
+          "ipAddressOrFQDN": "umbrellaitgroup-my.sharepoint.com",
+          "proxy": "",
+          "@odata.type": "microsoft.graph.proxiedDomain"
+        },
+        {
+          "ipAddressOrFQDN": "/*AppCompat*/",
+          "proxy": "",
+          "@odata.type": "microsoft.graph.proxiedDomain"
+        }
+      ],
+      "@odata.type": "microsoft.graph.windowsInformationProtectionProxiedDomainCollection"
+    }
+  ],
+  "enterpriseProxyServers": [],
+  "enterpriseProxyServersAreAuthoritative": false,
+  "exemptApps": [],
+  "iconsVisible": false,
+  "indexingEncryptedStoresOrItemsBlocked": false,
+  "isAssigned": false,
+  "neutralDomainResources": [],
+  "protectedApps": [
+    {
+      "binaryName": "teams.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "Microsoft Teams",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "binaryName": "mstsc.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "Microsoft Remote Desktop",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "binaryName": "mspaint.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "Microsoft Paint",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "binaryName": "notepad.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "Notepad",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "binaryName": "onedrive.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "Microsoft OneDrive",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "binaryName": "iexplore.exe",
+      "binaryVersionHigh": "*",
+      "binaryVersionLow": "*",
+      "denied": false,
+      "description": "*",
+      "displayName": "IE11",
+      "productName": "*",
+      "publisherName": "O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionDesktopApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.CompanyPortal",
+      "displayName": "Company Portal",
+      "productName": "Microsoft.CompanyPortal",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Messaging",
+      "displayName": "Microsoft Messaging",
+      "productName": "Microsoft.Messaging",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.ZuneVideo",
+      "displayName": "Microsoft Movies and TV",
+      "productName": "Microsoft.ZuneVideo",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.ZuneMusic",
+      "displayName": "Groove Music",
+      "productName": "Microsoft.ZuneMusic",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Windows.Photos",
+      "displayName": "Microsoft Photos",
+      "productName": "Microsoft.Windows.Photos",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "microsoft.windowscommunicationsapps",
+      "displayName": "Mail and Calendar for Windows 10",
+      "productName": "microsoft.windowscommunicationsapps",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Office.OneNote",
+      "displayName": "OneNote",
+      "productName": "Microsoft.Office.OneNote",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Office.PowerPoint",
+      "displayName": "PowerPoint Mobile",
+      "productName": "Microsoft.Office.PowerPoint",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Office.Excel",
+      "displayName": "Excel Mobile",
+      "productName": "Microsoft.Office.Excel",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.Office.Word",
+      "displayName": "Word Mobile",
+      "productName": "Microsoft.Office.Word",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.People",
+      "displayName": "Microsoft People",
+      "productName": "Microsoft.People",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    },
+    {
+      "denied": false,
+      "description": "Microsoft.MicrosoftEdge",
+      "displayName": "Microsoft Edge",
+      "productName": "Microsoft.MicrosoftEdge",
+      "publisherName": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "@odata.type": "#microsoft.graph.windowsInformationProtectionStoreApp"
+    }
+  ],
+  "protectionUnderLockConfigRequired": false,
+  "revokeOnUnenrollDisabled": false,
+  "smbAutoEncryptedFileExtensions": [],
+  "createdDateTime": "2022-09-06T14:54:57.3292574+00:00",
+  "description": "This policy protects app data on MDM-enrolled Windows 10 devices",
+  "displayName": "[Stage 4] W10 Managed Devices App Protection (Expiremental!)",
+  "lastModifiedDateTime": "2022-09-06T14:54:57.3292574+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "version": "1",
+  "id": "M_cd441a14-22bb-4d0b-bf8c-474ed58d9db1",
+  "@odata.type": "#microsoft.graph.mdmWindowsInformationProtectionPolicy"
+}

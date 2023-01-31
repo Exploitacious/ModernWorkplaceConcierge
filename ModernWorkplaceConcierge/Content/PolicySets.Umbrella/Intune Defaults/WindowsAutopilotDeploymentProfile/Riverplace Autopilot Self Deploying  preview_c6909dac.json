@@ -1,0 +1,26 @@
+{
+  "createdDateTime": "2022-09-06T15:06:20.5287659+00:00",
+  "description": "",
+  "deviceNameTemplate": "RCM-%SERIAL%",
+  "deviceType": "windowsPc",
+  "displayName": "Riverplace Autopilot Self Deploying  preview",
+  "enableWhiteGlove": false,
+  "extractHardwareHash": true,
+  "language": "os-default",
+  "lastModifiedDateTime": "2022-11-28T19:47:59.2125822+00:00",
+  "outOfBoxExperienceSettings": {
+    "deviceUsageType": "shared",
+    "hideEscapeLink": true,
+    "hideEULA": true,
+    "hidePrivacySettings": true,
+    "skipKeyboardSelectionPage": true,
+    "userType": "standard",
+    "@odata.type": "microsoft.graph.outOfBoxExperienceSettings"
+  },
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "id": "c6909dac-f088-4883-92db-f7718916e343",
+  "@odata.type": "#microsoft.graph.azureADWindowsAutopilotDeploymentProfile",
+  "managementServiceAppId": null
+}

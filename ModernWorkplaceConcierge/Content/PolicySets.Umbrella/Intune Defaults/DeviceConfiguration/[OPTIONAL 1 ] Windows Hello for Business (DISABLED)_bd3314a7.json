@@ -1,0 +1,23 @@
+{
+  "enhancedAntiSpoofingForFacialFeaturesEnabled": false,
+  "pinLowercaseCharactersUsage": "notConfigured",
+  "pinRecoveryEnabled": false,
+  "pinSpecialCharactersUsage": "notConfigured",
+  "pinUppercaseCharactersUsage": "notConfigured",
+  "securityDeviceRequired": false,
+  "unlockWithBiometricsEnabled": false,
+  "useCertificatesForOnPremisesAuthEnabled": false,
+  "useSecurityKeyForSignin": false,
+  "windowsHelloForBusinessBlocked": true,
+  "createdDateTime": "2022-08-31T15:56:16.610962+00:00",
+  "description": "** Set only 1 Optional, Disable/Delete the other **\nEnables Windows Hello for Business:\n- 6 Digit Minimum PIN\n- Allow Biometric\n- Other Security Settings",
+  "displayName": "[OPTIONAL 1 ] Windows Hello for Business (DISABLED)",
+  "lastModifiedDateTime": "2022-11-17T16:23:52.6711345+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 3,
+  "id": "bd3314a7-45fa-439b-ae23-df8f3a8166e1",
+  "@odata.type": "#microsoft.graph.windowsIdentityProtectionConfiguration"
+}

@@ -1,0 +1,65 @@
+{
+  "displayName": "Stage 0 - MFA/SSPR Dual-Enrollment",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "enabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": {
+      "includePlatforms": [
+        "all"
+      ],
+      "excludePlatforms": [
+        "android",
+        "iOS",
+        "windows",
+        "windowsPhone",
+        "macOS",
+        "linux"
+      ]
+    },
+    "locations": {
+      "includeLocations": [
+        "AllTrusted"
+      ],
+      "excludeLocations": [
+        "AllTrusted"
+      ]
+    },
+    "devices": null,
+    "applications": {
+      "includeApplications": [],
+      "excludeApplications": [],
+      "includeUserActions": [
+        "urn:user:registersecurityinfo"
+      ]
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

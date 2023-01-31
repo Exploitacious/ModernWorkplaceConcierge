@@ -1,0 +1,46 @@
+{
+  "displayName": "Stage 0 - AAD Security: Require MFA for All Management",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "enabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "797f4846-ba00-4fd7-ba43-dac1f8f63013"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

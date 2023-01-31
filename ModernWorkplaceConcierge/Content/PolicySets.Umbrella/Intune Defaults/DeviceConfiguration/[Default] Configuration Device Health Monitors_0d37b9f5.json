@@ -1,0 +1,15 @@
+{
+  "allowDeviceHealthMonitoring": "enabled",
+  "configDeviceHealthMonitoringScope": "healthMonitoring, bootPerformance, windowsUpdates",
+  "createdDateTime": "2022-08-31T15:55:20.6422317+00:00",
+  "description": "Default Device Health Monitor Settings for:\nHealth Monitoring\nEndpoint Analytics\nWindows Updates",
+  "displayName": "[Default] Configuration: Device Health Monitors",
+  "lastModifiedDateTime": "2022-08-31T15:55:20.6422317+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 1,
+  "id": "0d37b9f5-0349-416f-a49a-ad9754ef1ec2",
+  "@odata.type": "#microsoft.graph.windowsHealthMonitoringConfiguration"
+}

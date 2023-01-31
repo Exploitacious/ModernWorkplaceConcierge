@@ -1,0 +1,13 @@
+{
+  "limit": 15,
+  "createdDateTime": "0001-01-01T00:00:00+00:00",
+  "description": "This is the default Device Limit Restriction applied with the lowest priority to all users regardless of group membership.",
+  "displayName": "All users and all devices",
+  "lastModifiedDateTime": "2022-11-25T23:03:29+00:00",
+  "priority": 0,
+  "roleScopeTagIds": [],
+  "version": 0,
+  "id": "024f5357-c360-4f5e-874a-ff133124d5f0_DefaultLimit",
+  "@odata.type": "#microsoft.graph.deviceEnrollmentLimitConfiguration",
+  "deviceEnrollmentConfigurationType": "limit"
+}

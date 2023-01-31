@@ -1,0 +1,26 @@
+{
+  "allowDeviceResetOnInstallFailure": true,
+  "allowDeviceUseOnInstallFailure": false,
+  "allowLogCollectionOnInstallFailure": true,
+  "blockDeviceSetupRetryByUser": false,
+  "customErrorMessage": "Setup could not be completed. Please try again or contact Umbrella IT support for help.",
+  "disableUserStatusTrackingAfterFirstUser": true,
+  "installProgressTimeoutInMinutes": 120,
+  "selectedMobileAppIds": [
+    "808d7b72-d266-4751-8d15-7a06be70f869"
+  ],
+  "showInstallationProgress": true,
+  "trackInstallProgressForAutopilotOnly": true,
+  "createdDateTime": "0001-01-01T00:00:00+00:00",
+  "description": "This is the default enrollment status screen configuration applied with the lowest priority to all users and all devices regardless of group membership.",
+  "displayName": "All users and all devices",
+  "lastModifiedDateTime": "2022-11-25T23:03:29+00:00",
+  "priority": 0,
+  "roleScopeTagIds": [],
+  "version": 0,
+  "id": "024f5357-c360-4f5e-874a-ff133124d5f0_DefaultWindows10EnrollmentCompletionPageConfiguration",
+  "@odata.type": "#microsoft.graph.windows10EnrollmentCompletionPageConfiguration",
+  "deviceEnrollmentConfigurationType": "windows10EnrollmentCompletionPageConfiguration",
+  "allowNonBlockingAppInstallation": false,
+  "installQualityUpdates": false
+}

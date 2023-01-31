@@ -1,0 +1,43 @@
+{
+  "automaticUpdateMode": "autoInstallAtMaintenanceTime",
+  "autoRestartNotificationDismissal": "notConfigured",
+  "businessReadyUpdatesOnly": "businessReadyOnly",
+  "deliveryOptimizationMode": "userDefined",
+  "driversExcluded": false,
+  "featureUpdatesDeferralPeriodInDays": 30,
+  "featureUpdatesPaused": false,
+  "featureUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00+00:00",
+  "featureUpdatesRollbackStartDateTime": "0001-01-01T00:00:00+00:00",
+  "featureUpdatesRollbackWindowInDays": 60,
+  "featureUpdatesWillBeRolledBack": false,
+  "installationSchedule": {
+    "activeHoursEnd": "19:00:00",
+    "activeHoursStart": "06:00:00",
+    "@odata.type": "#microsoft.graph.windowsUpdateActiveHoursInstall"
+  },
+  "microsoftUpdateServiceAllowed": true,
+  "prereleaseFeatures": "userDefined",
+  "qualityUpdatesDeferralPeriodInDays": 15,
+  "qualityUpdatesPaused": false,
+  "qualityUpdatesPauseExpiryDateTime": "0001-01-01T00:00:00+00:00",
+  "qualityUpdatesRollbackStartDateTime": "0001-01-01T00:00:00+00:00",
+  "qualityUpdatesWillBeRolledBack": false,
+  "scheduleImminentRestartWarningInMinutes": 30,
+  "scheduleRestartWarningInHours": 12,
+  "skipChecksBeforeRestart": false,
+  "updateNotificationLevel": "restartWarningsOnly",
+  "userPauseAccess": "enabled",
+  "userWindowsUpdateScanAccess": "enabled",
+  "createdDateTime": "2022-08-31T15:56:18.261029+00:00",
+  "description": "Default (Defered) Semi-Anual Channel Windows Update Policy",
+  "displayName": "[Stage 0] Windows Update Policy",
+  "lastModifiedDateTime": "2022-09-06T15:08:04.3020447+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 2,
+  "id": "2b1ddd1a-0870-4e7b-ac41-e1b3ca109881",
+  "@odata.type": "#microsoft.graph.windowsUpdateForBusinessConfiguration",
+  "allowWindows11Upgrade": false
+}

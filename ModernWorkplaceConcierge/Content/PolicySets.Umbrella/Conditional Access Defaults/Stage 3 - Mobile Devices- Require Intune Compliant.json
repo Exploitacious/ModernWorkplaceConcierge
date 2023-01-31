@@ -1,0 +1,54 @@
+{
+  "displayName": "Stage 3 - Mobile Devices: Require Intune Compliant",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "disabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "compliantDevice"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients"
+    ],
+    "platforms": {
+      "includePlatforms": [
+        "android",
+        "iOS"
+      ],
+      "excludePlatforms": []
+    },
+    "locations": {
+      "includeLocations": [
+        "All"
+      ],
+      "excludeLocations": []
+    },
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "None"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "None"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

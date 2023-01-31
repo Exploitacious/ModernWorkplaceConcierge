@@ -1,0 +1,60 @@
+{
+  "createdDateTime": "2022-08-31T15:56:03.13+00:00",
+  "description": "Windows Time Policy set by Intune\n(Apply ONLY to Cloud Managed - NOT Hybrid Devices or ones that talk to a DC)\n- Set Timezone to Eastern Standard\n- Set clock to NTP Server us.pool.ntp.org",
+  "displayName": "[Default] Configuration: NTP Client",
+  "lastModifiedDateTime": "2022-08-31T15:56:03.9514088+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "id": "402402e0-821f-43bc-a1d1-65119fe96938",
+  "@odata.type": "microsoft.graph.groupPolicyConfiguration",
+  "policyConfigurationIngestionType": "builtIn",
+  "configuredSettings": [
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')",
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+          "value": 2,
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('9fdd698f-65bc-4b30-82cb-13cb2b3dabed')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "time.windows.com,0x9",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('2fb3b297-f5b0-4c7f-90e3-1bc40ba4b1ca')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+          "value": 0,
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('7fe69745-ff15-4c61-8a4a-234e29b5f2e2')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+          "value": 15,
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('608d15c3-80f1-44b7-941a-7fe0b46ac0ad')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+          "value": 7,
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('16499c04-93de-41d0-afcc-8b64f658e1a9')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueDecimal",
+          "value": 1024,
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('82f1d1c9-12b7-40b1-80da-a05f0c2d7517')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "NT5DS",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('fb7f0a5f-f167-420a-9d68-5af506866971')/presentations('c9a41236-41dd-4ef0-b2b2-a8da51ef619d')"
+        }
+      ]
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('e1c01973-ff94-4bef-84c6-c423300ef85a')",
+      "enabled": true,
+      "presentationValues": []
+    }
+  ]
+}

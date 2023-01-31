@@ -1,0 +1,33 @@
+{
+  "activeFirewallRequired": false,
+  "antiSpywareRequired": false,
+  "antivirusRequired": false,
+  "bitLockerEnabled": false,
+  "codeIntegrityEnabled": false,
+  "configurationManagerComplianceRequired": false,
+  "defenderEnabled": false,
+  "deviceThreatProtectionEnabled": false,
+  "deviceThreatProtectionRequiredSecurityLevel": "unavailable",
+  "earlyLaunchAntiMalwareDriverEnabled": false,
+  "osMinimumVersion": "10.0.19044.2130",
+  "passwordBlockSimple": false,
+  "passwordRequired": false,
+  "passwordRequiredToUnlockFromIdle": false,
+  "passwordRequiredType": "deviceDefault",
+  "requireHealthyDeviceReport": false,
+  "rtpEnabled": false,
+  "secureBootEnabled": false,
+  "signatureOutOfDate": false,
+  "storageRequireEncryption": false,
+  "tpmRequired": false,
+  "validOperatingSystemBuildRanges": [],
+  "createdDateTime": "2022-11-25T21:48:55.4875347+00:00",
+  "displayName": "RP-Minimum OS requirement",
+  "lastModifiedDateTime": "2022-11-25T21:55:09.3419206+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "version": 3,
+  "id": "40233a15-c482-4811-9c26-c1dfc77c88fc",
+  "@odata.type": "#microsoft.graph.windows10CompliancePolicy"
+}

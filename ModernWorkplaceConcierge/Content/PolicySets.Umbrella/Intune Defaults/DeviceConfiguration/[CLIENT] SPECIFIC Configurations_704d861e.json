@@ -1,0 +1,57 @@
+{
+  "createdDateTime": "2022-08-31T15:55:17.05+00:00",
+  "description": "Specific Configurations for End-Client\n- Specify SharePoint Server URL and Organization name\n- Configure team site libraries to sync automatically",
+  "displayName": "[CLIENT] SPECIFIC Configurations",
+  "lastModifiedDateTime": "2022-11-17T20:26:58.2310309+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "id": "704d861e-c910-48fb-948e-8964118a118c",
+  "@odata.type": "microsoft.graph.groupPolicyConfiguration",
+  "policyConfigurationIngestionType": "builtIn",
+  "configuredSettings": [
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('bf94c594-a626-455b-847c-d219fc05ed25')",
+      "enabled": false,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "https://idenvironmentalinc.sharepoint.com/",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('bf94c594-a626-455b-847c-d219fc05ed25')/presentations('4a97370e-d8d9-4d32-be91-07703bb13def')"
+        },
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "Indepth Environmental",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('bf94c594-a626-455b-847c-d219fc05ed25')/presentations('ed59144d-22b5-4697-93d7-f54e4fc4f7eb')"
+        }
+      ]
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('8bdf9bb2-d25d-4387-b855-f3a2d7df215e')",
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueList",
+          "values": [
+            {
+              "name": "Riverplace Capital - Documents",
+              "value": "tenantId=f9bd5775%2D008f%2D4f32%2D8159%2Df6c076dc6367&siteId=%7B2beb2b6e%2D2cbe%2D45e4%2D9c2c%2Dd0a820367f81%7D&webId=%7Bb382c2c8%2D2f3d%2D43fb%2D9e92%2D0895c318655b%7D&listId=2e2e327d%2D5d9d%2D4233%2D86b2%2Dd04eb4ff2525&folderId=af2ef110%2Decdc%2D5e02%2D9b8f%2D44822ed42a1d&webUrl=https%3A%2F%2Friverplacecapitol%2Esharepoint%2Ecom%2Fsites%2FRiverplaceCapital&version=1"
+            }
+          ],
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('8bdf9bb2-d25d-4387-b855-f3a2d7df215e')/presentations('a057778b-a30c-4a5b-b9b9-055fdccee4a6')"
+        }
+      ]
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('447149fe-25a7-4318-acde-f8dc69c6612e')",
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "[   {     \"toplevel_name\": \"Riverplace Capital\"   },   {     \"url\": \"office.com\",     \"name\": \"Office 365 Home\"   },   {     \"url\": \"https://outlook.office365.com/mail/\",     \"name\": \"Riverplace Email\"   },   {     \"url\": \"https://riverplacecapitol.sharepoint.com/sites/RiverplaceCapital/Shared%20Documents/Forms/AllItems.aspx\",     \"name\": \"Riverplace Documents\"   },   {     \"name\": \"Umbrella Bookmarks\",     \"children\": [       {         \"url\": \"https://umbrellaitgroup.itclientportal.com/\",         \"name\": \"Client IT Portal\"       },       {         \"url\": \"https://umbrellaitgroup.com\",         \"name\": \"Email support@umbrellaitgroup.com to add bookmarks to the list\"       }     ]   } ]",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('447149fe-25a7-4318-acde-f8dc69c6612e')/presentations('15156669-9dc2-462a-a0ec-f79c7cfffda9')"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "displayName": "Stage 2 - Require MFA for ALL USERS",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "enabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "mfa"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "browser",
+      "mobileAppsAndDesktopClients"
+    ],
+    "platforms": null,
+    "locations": {
+      "includeLocations": [
+        "All"
+      ],
+      "excludeLocations": [
+        "00000000-0000-0000-0000-000000000000",
+        "049e92af-1dc8-40f7-ba00-81c0604acc79"
+      ]
+    },
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [
+        "00000012-0000-0000-c000-000000000000"
+      ],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [
+        "d27f18e9-3271-454e-9f32-5e6359ead469",
+        "c253fa2f-4362-4036-8002-1264b8977168"
+      ],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>",
+        "4614a8c6-147f-48c7-a814-dd2f83eebcb1"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

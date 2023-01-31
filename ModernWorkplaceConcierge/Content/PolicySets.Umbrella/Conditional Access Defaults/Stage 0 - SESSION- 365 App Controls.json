@@ -1,0 +1,51 @@
+{
+  "displayName": "Stage 0 - SESSION: 365 App Controls",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "disabled",
+  "grantControls": null,
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "00000002-0000-0ff1-ce00-000000000000",
+        "00000003-0000-0ff1-ce00-000000000000",
+        "Office365"
+      ],
+      "excludeApplications": [],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": {
+    "cloudAppSecurity": {
+      "cloudAppSecurityType": "blockDownloads",
+      "isEnabled": true
+    },
+    "signInFrequency": null,
+    "persistentBrowser": null,
+    "applicationEnforcedRestrictions": {
+      "isEnabled": true
+    }
+  }
+}

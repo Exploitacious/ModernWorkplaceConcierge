@@ -1,0 +1,57 @@
+{
+  "displayName": "Stage 0 - AAD Security: BLOCK Untrusted Countries ( *** Must Have Countries Configured *** )",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "enabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "block"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "all"
+    ],
+    "platforms": null,
+    "locations": {
+      "includeLocations": [
+        "All"
+      ],
+      "excludeLocations": [
+        "AllTrusted"
+      ]
+    },
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [
+        "00000012-0000-0000-c000-000000000000"
+      ],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [
+        "GuestsOrExternalUsers"
+      ],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

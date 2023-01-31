@@ -1,0 +1,48 @@
+{
+  "backgroundDownloadFromHttpDelayInSeconds": 60,
+  "bandwidthMode": {
+    "bandwidthBackgroundPercentageHours": {
+      "bandwidthBeginBusinessHours": 7,
+      "bandwidthEndBusinessHours": 20,
+      "bandwidthPercentageDuringBusinessHours": 40,
+      "bandwidthPercentageOutsideBusinessHours": 75,
+      "@odata.type": "microsoft.graph.deliveryOptimizationBandwidthBusinessHoursLimit"
+    },
+    "bandwidthForegroundPercentageHours": {
+      "bandwidthBeginBusinessHours": 7,
+      "bandwidthEndBusinessHours": 20,
+      "bandwidthPercentageDuringBusinessHours": 40,
+      "bandwidthPercentageOutsideBusinessHours": 75,
+      "@odata.type": "microsoft.graph.deliveryOptimizationBandwidthBusinessHoursLimit"
+    },
+    "@odata.type": "#microsoft.graph.deliveryOptimizationBandwidthHoursWithPercentage"
+  },
+  "cacheServerBackgroundDownloadFallbackToHttpDelayInSeconds": 60,
+  "cacheServerForegroundDownloadFallbackToHttpDelayInSeconds": 60,
+  "cacheServerHostNames": [],
+  "deliveryOptimizationMode": "httpWithPeeringNat",
+  "foregroundDownloadFromHttpDelayInSeconds": 60,
+  "maximumCacheAgeInDays": 31,
+  "maximumCacheSize": {
+    "maximumCacheSizeInGigabytes": 20,
+    "@odata.type": "#microsoft.graph.deliveryOptimizationMaxCacheSizeAbsolute"
+  },
+  "minimumBatteryPercentageAllowedToUpload": 40,
+  "minimumDiskSizeAllowedToPeerInGigabytes": 32,
+  "minimumFileSizeToCacheInMegabytes": 10,
+  "minimumRamAllowedToPeerInGigabytes": 2,
+  "modifyCacheLocation": "C:\\Temp",
+  "restrictPeerSelectionBy": "subnetMask",
+  "vpnPeerCaching": "disabled",
+  "createdDateTime": "2022-08-31T15:56:15.9059233+00:00",
+  "description": "Configuration for Windows Updates to not get in the way and choke resources.\n- Rate Limits for Bandwidth\n- Limits for Schedules\n- Limits for Disk/RAM Size & Location\n- Other Tweaks and Settings",
+  "displayName": "[Default] Configuration: WUpdates Optimization",
+  "lastModifiedDateTime": "2022-08-31T15:56:15.9059233+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 1,
+  "id": "445d86ae-bd94-4b45-90a9-184ee3bc6199",
+  "@odata.type": "#microsoft.graph.windowsDeliveryOptimizationConfiguration"
+}

@@ -1,0 +1,383 @@
+{
+  "allowedAndroidDeviceModels": [],
+  "appActionIfAndroidDeviceManufacturerNotAllowed": "block",
+  "appActionIfAndroidDeviceModelNotAllowed": "block",
+  "appActionIfAndroidSafetyNetAppsVerificationFailed": "block",
+  "appActionIfAndroidSafetyNetDeviceAttestationFailed": "block",
+  "appActionIfDeviceLockNotSet": "block",
+  "approvedKeyboards": [],
+  "biometricAuthenticationBlocked": false,
+  "blockAfterCompanyPortalUpdateDeferralInDays": 0,
+  "customBrowserDisplayName": "",
+  "customBrowserPackageId": "",
+  "customDialerAppDisplayName": "",
+  "customDialerAppPackageId": "",
+  "deployedAppCount": 32,
+  "deviceLockRequired": false,
+  "disableAppEncryptionIfDeviceEncryptionIsEnabled": false,
+  "encryptAppData": true,
+  "exemptedAppPackages": [],
+  "keyboardsRestricted": false,
+  "minimumRequiredPatchVersion": "0000-00-00",
+  "minimumWarningPatchVersion": "0000-00-00",
+  "minimumWipePatchVersion": "0000-00-00",
+  "requiredAndroidSafetyNetAppsVerificationType": "none",
+  "requiredAndroidSafetyNetDeviceAttestationType": "none",
+  "requiredAndroidSafetyNetEvaluationType": "basic",
+  "screenCaptureBlocked": true,
+  "warnAfterCompanyPortalUpdateDeferralInDays": 0,
+  "wipeAfterCompanyPortalUpdateDeferralInDays": 0,
+  "isAssigned": true,
+  "targetedAppManagementLevels": "unspecified",
+  "allowedDataIngestionLocations": [
+    "oneDriveForBusiness",
+    "sharePoint",
+    "camera"
+  ],
+  "allowedDataStorageLocations": [
+    "oneDriveForBusiness",
+    "sharePoint"
+  ],
+  "allowedInboundDataTransferSources": "allApps",
+  "allowedOutboundClipboardSharingExceptionLength": 0,
+  "allowedOutboundClipboardSharingLevel": "allApps",
+  "allowedOutboundDataTransferDestinations": "allApps",
+  "appActionIfDeviceComplianceRequired": "block",
+  "appActionIfMaximumPinRetriesExceeded": "block",
+  "blockDataIngestionIntoOrganizationDocuments": false,
+  "contactSyncBlocked": false,
+  "dataBackupBlocked": true,
+  "deviceComplianceRequired": true,
+  "dialerRestrictionLevel": "allApps",
+  "disableAppPinIfDevicePinIsSet": true,
+  "fingerprintBlocked": false,
+  "managedBrowser": "notConfigured",
+  "managedBrowserToOpenLinksRequired": false,
+  "maximumAllowedDeviceThreatLevel": "notConfigured",
+  "maximumPinRetries": 5,
+  "minimumPinLength": 6,
+  "minimumRequiredOsVersion": "8.1",
+  "mobileThreatDefenseRemediationAction": "block",
+  "notificationRestriction": "allow",
+  "organizationalCredentialsRequired": false,
+  "periodBeforePinReset": "PT0S",
+  "periodOfflineBeforeAccessCheck": "PT12H",
+  "periodOfflineBeforeWipeIsEnforced": "P60D",
+  "periodOnlineBeforeAccessCheck": "PT1H",
+  "pinCharacterSet": "numeric",
+  "pinRequired": true,
+  "previousPinBlockCount": 0,
+  "printBlocked": false,
+  "saveAsBlocked": true,
+  "simplePinBlocked": true,
+  "createdDateTime": "2022-09-06T14:54:54.0422438+00:00",
+  "description": "Permit access to O365 services & corporate data\nMost Lax Permittable Security Policy\n*** Requires the use of Company Portal on Android!",
+  "displayName": "[Stage 2] BYOD MaM Android w/Company Portal (Minimum Security) [v3-2021]",
+  "lastModifiedDateTime": "2022-09-06T14:54:54+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "version": "\"3f01f674-0000-0300-0000-63175f3e0000\"",
+  "id": "T_190329a1-c076-450d-b368-9cb4016c4730",
+  "@odata.type": "#microsoft.graph.androidManagedAppProtection",
+  "mobileThreatDefensePartnerPriority": null,
+  "gracePeriodToBlockAppsDuringOffClockHours": null,
+  "appGroupType": "selectedPublicApps",
+  "connectToVpnOnLaunch": false,
+  "appActionIfDevicePasscodeComplexityLessThanLow": null,
+  "appActionIfDevicePasscodeComplexityLessThanMedium": null,
+  "appActionIfDevicePasscodeComplexityLessThanHigh": null,
+  "requireClass3Biometrics": false,
+  "requirePinAfterBiometricChange": false,
+  "fingerprintAndBiometricEnabled": null,
+  "assignedApps": [
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.adobe.reader",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "267816930",
+      "id": "com.adobe.reader.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.crm.crmphone",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1708416158",
+      "id": "com.microsoft.crm.crmphone.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.crm.crmtablet",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1872338160",
+      "id": "com.microsoft.crm.crmtablet.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.dynamics.invoice",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1413520457",
+      "id": "com.microsoft.dynamics.invoice.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.emmx",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-725393251",
+      "id": "com.microsoft.emmx.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.exchange.bookings",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1296747733",
+      "id": "com.microsoft.exchange.bookings.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.flow",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-496779816",
+      "id": "com.microsoft.flow.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.ipviewer",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "522412547",
+      "id": "com.microsoft.ipviewer.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.launcher",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1429615568",
+      "id": "com.microsoft.launcher.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.mobile.polymer",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "2129189606",
+      "id": "com.microsoft.mobile.polymer.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.msapps",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "986978680",
+      "id": "com.microsoft.msapps.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.excel",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1789826587",
+      "id": "com.microsoft.office.excel.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.lync15",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1419864878",
+      "id": "com.microsoft.office.lync15.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.officehub",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1091809935",
+      "id": "com.microsoft.office.officehub.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.officehubhl",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1175805259",
+      "id": "com.microsoft.office.officehubhl.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.officehubrow",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1861979965",
+      "id": "com.microsoft.office.officehubrow.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.onenote",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "186482170",
+      "id": "com.microsoft.office.onenote.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.outlook",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1146701235",
+      "id": "com.microsoft.office.outlook.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.powerpoint",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1411665537",
+      "id": "com.microsoft.office.powerpoint.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.office.word",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "2122351424",
+      "id": "com.microsoft.office.word.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.planner",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1658524342",
+      "id": "com.microsoft.planner.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.powerbim",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1564653697",
+      "id": "com.microsoft.powerbim.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.sharepoint",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "84773357",
+      "id": "com.microsoft.sharepoint.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.skydrive",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1887770705",
+      "id": "com.microsoft.skydrive.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.stream",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "648128536",
+      "id": "com.microsoft.stream.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.teams",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1900143244",
+      "id": "com.microsoft.teams.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.todos",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1697858135",
+      "id": "com.microsoft.todos.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.microsoft.workfolders",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1290240016",
+      "id": "com.microsoft.workfolders.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.ms.office365admin",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1040477753",
+      "id": "com.ms.office365admin.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.printeron.droid.phone.intune",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1984547164",
+      "id": "com.printeron.droid.phone.intune.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "com.yammer.v1",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "-1248070370",
+      "id": "com.yammer.v1.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    },
+    {
+      "mobileAppIdentifier": {
+        "packageId": "ols.microsoft.com.shiftr",
+        "@odata.type": "#microsoft.graph.androidMobileAppIdentifier"
+      },
+      "version": "1462285532",
+      "id": "ols.microsoft.com.shiftr.android",
+      "@odata.type": "microsoft.graph.managedMobileApp"
+    }
+  ]
+}

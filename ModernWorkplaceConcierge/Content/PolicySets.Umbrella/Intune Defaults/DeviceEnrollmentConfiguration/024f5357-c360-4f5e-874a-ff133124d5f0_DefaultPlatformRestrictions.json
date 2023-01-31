@@ -1,0 +1,78 @@
+{
+  "androidForWorkRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "androidRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "iosRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "macOSRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "macRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "windowsHomeSkuRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "windowsMobileRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": true,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "windowsRestriction": {
+    "blockedManufacturers": [],
+    "blockedSkus": [],
+    "osMaximumVersion": "",
+    "osMinimumVersion": "",
+    "personalDeviceEnrollmentBlocked": false,
+    "platformBlocked": false,
+    "@odata.type": "microsoft.graph.deviceEnrollmentPlatformRestriction"
+  },
+  "createdDateTime": "0001-01-01T00:00:00+00:00",
+  "description": "This is the default Device Type Restriction applied with the lowest priority to all users regardless of group membership.",
+  "displayName": "All users and all devices",
+  "lastModifiedDateTime": "2022-11-25T23:03:29+00:00",
+  "priority": 0,
+  "roleScopeTagIds": [],
+  "version": 0,
+  "id": "024f5357-c360-4f5e-874a-ff133124d5f0_DefaultPlatformRestrictions",
+  "@odata.type": "#microsoft.graph.deviceEnrollmentPlatformRestrictionsConfiguration",
+  "deviceEnrollmentConfigurationType": "platformRestrictions"
+}

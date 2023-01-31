@@ -1,0 +1,24 @@
+{
+  "accountName": "Corporate Email Account",
+  "durationOfEmailToSync": "userDefined",
+  "emailAddressSource": "primarySmtpAddress",
+  "emailSyncSchedule": "asMessagesArrive",
+  "hostName": "outlook.office365.com",
+  "requireSsl": true,
+  "syncCalendar": true,
+  "syncContacts": true,
+  "syncTasks": true,
+  "usernameAADSource": "userPrincipalName",
+  "usernameSource": "userPrincipalName",
+  "createdDateTime": "2022-08-31T15:56:02.8091538+00:00",
+  "description": "Sets the Default Email Profile and auto-login into Office 365 Email.\n- Works extremely well on Default Windows Mail App",
+  "displayName": "[Default] Configuration: Email Profile",
+  "lastModifiedDateTime": "2022-08-31T15:56:02.8091538+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 1,
+  "id": "fec4a703-cd6d-45a7-9f56-01c2ba4b196d",
+  "@odata.type": "#microsoft.graph.windows10EasEmailProfileConfiguration"
+}

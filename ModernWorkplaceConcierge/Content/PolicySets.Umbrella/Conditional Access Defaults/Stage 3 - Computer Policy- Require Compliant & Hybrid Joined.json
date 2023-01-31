@@ -1,0 +1,57 @@
+{
+  "displayName": "Stage 3 - Computer Policy: Require Compliant & Hybrid Joined",
+  "createdDateTime": null,
+  "modifiedDateTime": null,
+  "state": "enabled",
+  "grantControls": {
+    "operator": "OR",
+    "builtInControls": [
+      "compliantDevice"
+    ],
+    "customAuthenticationFactors": [],
+    "termsOfUse": []
+  },
+  "conditions": {
+    "signInRiskLevels": [],
+    "userRiskLevels": [],
+    "clientAppTypes": [
+      "mobileAppsAndDesktopClients"
+    ],
+    "platforms": {
+      "includePlatforms": [
+        "windows",
+        "macOS"
+      ],
+      "excludePlatforms": []
+    },
+    "locations": null,
+    "devices": null,
+    "applications": {
+      "includeApplications": [
+        "All"
+      ],
+      "excludeApplications": [
+        "00000012-0000-0000-c000-000000000000"
+      ],
+      "includeUserActions": []
+    },
+    "users": {
+      "includeUsers": [
+        "All"
+      ],
+      "excludeUsers": [
+        "77dbf077-bf65-4d2b-84f9-2332dce08b7b",
+        "c253fa2f-4362-4036-8002-1264b8977168"
+      ],
+      "includeGroups": [],
+      "excludeGroups": [
+        "<ExclusionTempGroup>",
+        "<ExclusionPermGroup>",
+        "<EmergencyAccessAccountsGroup>"
+      ],
+      "includeRoles": [],
+      "excludeRoles": []
+    }
+  },
+  "sessionControls": null
+}

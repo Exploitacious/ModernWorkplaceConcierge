@@ -1,0 +1,66 @@
+{
+  "createdDateTime": "2022-08-31T15:56:04.39+00:00",
+  "description": "- Set SMTP Address SSO\n- Set Default File Format\n- Scan Macros in Excel\n- Various MS Office Apps Behavior",
+  "displayName": "[Default] Configuration: O365 Apps Settings",
+  "lastModifiedDateTime": "2022-08-31T15:56:07.5764233+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "id": "f303e4ed-454f-4423-ab7c-aabdaf3b138b",
+  "@odata.type": "microsoft.graph.groupPolicyConfiguration",
+  "policyConfigurationIngestionType": "builtIn",
+  "configuredSettings": [
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('f974758d-1fab-42fe-ad36-3a6cd25c49c1')",
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('ed2a5416-d394-4310-a143-63ad0ab42147')",
+      "enabled": false,
+      "presentationValues": []
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('2daec783-9596-4947-8592-87deff63d3fa')",
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('3f117bcd-4ea5-4fe6-ad8d-9a47f01170a7')",
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('6ecfab16-d5be-4e16-a2cf-9ef0c29dcaad')",
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "0",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('6ecfab16-d5be-4e16-a2cf-9ef0c29dcaad')/presentations('c482144e-cd41-40a8-a34b-0051c4352bf9')"
+        }
+      ]
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('edcd7678-886d-42ce-9455-b0b3a90e65e5')",
+      "enabled": true,
+      "presentationValues": []
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('b13444dd-32eb-4e68-a86a-ec41abe0992e')",
+      "enabled": true,
+      "presentationValues": [
+        {
+          "@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+          "value": "2",
+          "presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('b13444dd-32eb-4e68-a86a-ec41abe0992e')/presentations('7c07c4be-a06c-4b0a-aa74-af9a9cabd811')"
+        }
+      ]
+    },
+    {
+      "definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('158ecafb-d03a-4d90-aed6-f8ec9b4d4f7e')",
+      "enabled": true,
+      "presentationValues": []
+    }
+  ]
+}

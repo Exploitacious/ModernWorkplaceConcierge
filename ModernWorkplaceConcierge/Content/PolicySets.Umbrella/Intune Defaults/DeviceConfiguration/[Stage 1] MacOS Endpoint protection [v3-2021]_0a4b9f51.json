@@ -1,0 +1,32 @@
+{
+  "advancedThreatProtectionAutomaticSampleSubmission": "notConfigured",
+  "advancedThreatProtectionCloudDelivered": "notConfigured",
+  "advancedThreatProtectionDiagnosticDataCollection": "notConfigured",
+  "advancedThreatProtectionExcludedExtensions": [],
+  "advancedThreatProtectionExcludedFiles": [],
+  "advancedThreatProtectionExcludedFolders": [],
+  "advancedThreatProtectionExcludedProcesses": [],
+  "advancedThreatProtectionRealTime": "notConfigured",
+  "fileVaultAllowDeferralUntilSignOut": false,
+  "fileVaultDisablePromptAtSignOut": false,
+  "fileVaultEnabled": false,
+  "fileVaultHidePersonalRecoveryKey": false,
+  "fileVaultSelectedRecoveryKeyTypes": "notConfigured",
+  "firewallApplications": [],
+  "firewallBlockAllIncoming": false,
+  "firewallEnabled": true,
+  "firewallEnableStealthMode": true,
+  "gatekeeperAllowedAppSource": "macAppStoreAndIdentifiedDevelopers",
+  "gatekeeperBlockOverride": true,
+  "createdDateTime": "2022-08-31T15:56:18.5444727+00:00",
+  "description": "Firewall, Gatekeeper",
+  "displayName": "[Stage 1] MacOS Endpoint protection [v3-2021]",
+  "lastModifiedDateTime": "2022-08-31T15:56:18.5444727+00:00",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "supportsScopeTags": true,
+  "version": 1,
+  "id": "0a4b9f51-6b6c-45df-8f1f-4e0d35b11e57",
+  "@odata.type": "#microsoft.graph.macOSEndpointProtectionConfiguration"
+}
